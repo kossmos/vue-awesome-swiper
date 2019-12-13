@@ -47,8 +47,8 @@
     "finish": "npm run lint && npm test && npm run build"
   },
   "dependencies": {
-    "object-assign": "^4.1.1",
-    "swiper": "@modulbank/swiper"
+    "@modulbank/swiper": "^5.2.3",
+    "object-assign": "^4.1.1"
   },
   "expDependencies": {
     "node-sass": "^4.7.2",
