@@ -1,5 +1,5 @@
 {
-  "name": "vue-awesome-swiper",
+  "name": "@modulbank/vue-awesome-swiper",
   "description": "Swiper component for Vue",
   "version": "3.1.3",
   "license": "MIT",
@@ -10,9 +10,9 @@
     "url": "https://surmon.me"
   },
   "bugs": {
-    "url": "https://github.com/surmon-china/vue-awesome-swiper/issues"
+    "url": "https://github.com/kossmos/vue-awesome-swiper/issues"
   },
-  "homepage": "https://github.com/surmon-china/vue-awesome-swiper#readme",
+  "homepage": "https://github.com/kossmos/vue-awesome-swiper#readme",
   "main": "dist/vue-awesome-swiper.js",
   "unpkg": "dist/vue-awesome-swiper.js",
   "jsnext:main": "dist/vue-awesome-swiper.js",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/surmon-china/vue-awesome-swiper.git"
+    "url": "https://github.com/kossmos/vue-awesome-swiper.git"
   },
   "keywords": [
     "vue-awesome-swiper",
@@ -51,7 +51,8 @@
   },
   "dependencies": {
     "object-assign": "^4.1.1",
-    "swiper": "github:kossmos/swiper"
+    "swiper": "github:kossmos/swiper",
+    "swiper-src": "github:kossmos/swiper"
   },
   "expDependencies": {
     "node-sass": "^4.7.2",
