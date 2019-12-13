@@ -44,8 +44,7 @@
     "build:ssr": "babel src/ssr.js --out-file dist/ssr.js",
     "build": "npm run build:spa && npm run build:ssr",
     "lint": "eslint --ext .js,.vue src test/unit/specs",
-    "finish": "npm run lint && npm test && npm run build",
-    "publish": "git push && git push --tags && npm publish"
+    "finish": "npm run lint && npm test && npm run build"
   },
   "dependencies": {
     "object-assign": "^4.1.1",
