@@ -13,7 +13,7 @@
 
 <script>
   // require sources
-  import _Swiper from 'swiper/package/js/swiper.js'
+  import _Swiper from '@modulbank/swiper/package/js/swiper.js'
   const Swiper = window.Swiper || _Swiper
 
   // pollfill

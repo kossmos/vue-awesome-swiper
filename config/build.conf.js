@@ -10,10 +10,10 @@ module.exports = merge(baseConfig, {
     'vue-awesome-swiper': './src/index.js'
   },
   externals: {
-    'swiper/package/js/swiper.js': {
+    '@modulbank/swiper/package/js/swiper.js': {
         root: 'Swiper',
-        commonjs: 'swiper/package/js/swiper.js',
-        commonjs2: 'swiper/package/js/swiper.js',
+        commonjs: '@modulbank/swiper/package/js/swiper.js',
+        commonjs2: '@modulbank/swiper/package/js/swiper.js',
         amd: 'swiper'
     },
     'object-assign': 'object-assign'
@@ -34,7 +34,7 @@ module.exports = merge(baseConfig, {
       resolve('node_modules')
     ],
     alias: {
-      'swiper$': 'swiper/package/js/swiper.js'
+      'swiper$': '@modulbank/swiper/package/js/swiper.js'
     }
   }
 })

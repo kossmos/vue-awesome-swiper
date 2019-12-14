@@ -8,7 +8,7 @@ module.exports = merge(baseConfig, {
   devtool: '#inline-source-map',
   resolve: {
     alias: {
-      'swiper$': 'swiper/package/js/swiper.js'
+      'swiper$': '@modulbank/swiper/package/js/swiper.js'
     }
   }
 })
